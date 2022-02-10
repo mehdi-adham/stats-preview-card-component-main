@@ -69,10 +69,19 @@ P{
     color: var(--main-heading-stats-color);
 }
 .header-img{
+    position: relative;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     background: url(images/image-header-desktop.jpg) no-repeat ;
     width: 50%;
+}
+.header-img div{
+    background: hsla(277, 75%, 40%, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 @media screen and (max-width:480px){
     .card{
@@ -100,5 +109,10 @@ P{
     }
     .cnt{
         font-size: 24px;
+    }
+    .header-img div{
+        border-bottom-right-radius: unset;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
     }
 }
