@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution URL](https://www.frontendmentor.io/profile/mehdi-adham)
-- Live Site URL: [My live site URL](https://mehdi-adham.github.io/stats-preview-card-component)
+- Live Site URL: [My live site URL](https://mehdi-adham.github.io/stats-preview-card-component/index.html)
 
 ## My process
 
